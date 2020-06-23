@@ -13,11 +13,6 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <EditText
-            android:id="@+id/edit_text"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:hint="入力して下さい" />
         <Button
             android:id="@+id/btn"
             android:layout_width="fill_parent"
