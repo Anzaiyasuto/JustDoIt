@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JustDoIt</string>
+
+    <string name="text_name">タスク名:</string>
+    <string name="text_level">重要度:</string>
+    <string name="text_limit">期日:</string>
+
+
+    <string name="btn_InputTask_input">作成する</string>
+    <string name="btn_ChangeTask_change">変更する</string>
+    <string name="btn_TaskContent_change">タスク内容を変更する</string>
+    <string name="btn_TaskContent_delete">消去する</string>
+
+</resources>
