@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteTaskActivity">
+
+    <TextView
+        android:id="@+id/text_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消去画面"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6EBEB"
+        android:text="(タスク名)を消去します。\nよろしいですか?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/button_delete_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="はい"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button_delete_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="いいえ"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button_backContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="戻る"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="18dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
