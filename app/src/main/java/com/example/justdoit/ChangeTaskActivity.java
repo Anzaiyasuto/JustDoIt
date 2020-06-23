@@ -1,7 +1,6 @@
 /**
- * anzai
+ *
  */
-
 package com.example.justdoit;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**
- * タスク内容を変更するクラス
- * ~~~~~
+ * タスクの変更をするクラス.
+ * オブジェクトのpush,popが可能.
+ *
+ * @author Takahiro Oami
  */
 public class ChangeTaskActivity extends AppCompatActivity {
 
